@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zx.BackEnd.API</name>
+    </assembly>
+    <members>
+        <member name="M:Zx.BackEnd.API.Controllers.PDVController.GetPDV">
+            <summary>
+            Listar todos os Pontos de Vendas
+            </summary>
+        </member>
+        <member name="M:Zx.BackEnd.API.Controllers.PDVController.GetPDV(System.Int32)">
+            <summary>
+            Lista o Ponto de Venda pelo Id
+            </summary>
+            <param name="id">Id do ponto de vendas</param>
+        </member>
+        <member name="M:Zx.BackEnd.API.Controllers.PDVController.GetPDV(System.Double,System.Double)">
+            <summary>
+            Localizar os pontos de vendas mais proximos
+            </summary>
+            <param name="latitude">latitude</param>
+            <param name="longitude">longitude</param>
+        </member>
+        <member name="M:Zx.BackEnd.API.Controllers.PDVController.CreatePDV(Zx.BackEnd.Model.PontoDeVenda)">
+            <summary>
+            Criar um ponto de Venda
+            </summary>
+            <param name="pdv"></param>
+        </member>
+        <member name="M:Zx.BackEnd.API.Controllers.PDVController.DeletePDV(System.Int32)">
+            <summary>
+            Deletar um ponto de Venda
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
